@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Maze from "./pages/maze";
+import Maze from "./pages/Maze";
 import Landing from "./pages/Landing";
 import NotFound from "./pages/NotFound";
 import TreeVisualizer from "./pages/TreeVisualizer";
