@@ -9,6 +9,7 @@ import Todo from "./pages/Todo";
 import Login from "./pages/Login";
 import TicTacToe from "./pages/TicTacToe";
 import Home from "./pages/Home";
+import Sudoku from "./pages/Sudoku";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/tree-visualizer" element={<TreeVisualizer />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/sudoku-solver" element={<Sudoku />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>

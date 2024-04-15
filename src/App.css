@@ -140,3 +140,32 @@ i {
   justify-content: center;
   align-items: center;
 }
+
+/* sudoku css */
+.first_inner_box {
+  height: 150px;
+  max-width: 152px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.inner_box {
+  height: 50px;
+  border: 1px dashed black;
+  max-width: 50px;
+  width: 100%;
+  padding: 0px;
+}
+
+input {
+  border: none !important;
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+}
+input:focus {
+  border: none !important;
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+}
